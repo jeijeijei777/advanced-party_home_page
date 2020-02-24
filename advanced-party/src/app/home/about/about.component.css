@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  width: 1000px;
+  object-fit: cover;
+  white-space: nowrap;
+  padding-left: 600px;
+}
+
+.title {
+  font-family: HelveticaNeue-CondensedBold;
+  color: gray;
+}
+
+.message {
+  font-family: HelveticaNeue-CondensedBold;
+}
+
+.logo {
+  position: absolute;
+  left: 50px;
+  width: 600px;
+  object-fit: cover;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 30px;
+}

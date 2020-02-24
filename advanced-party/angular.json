@@ -118,6 +118,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "advanced-party"
+    }
+  },
+  "defaultProject": "advanced-party",
+  "cli": {
+    "analytics": "29dc407c-ed38-4210-b551-c8a8d2394174"
+  }
 }

@@ -1,1 +1,33 @@
-<p>contact works!</p>
+<app-section>
+  <h1 id="contact" class="message"><b>お問い合わせ</b></h1>
+  <app-section [color]="'mat-accent'">
+    お問い合わせいただきありがとうございます。
+    <br />
+    皆様からのご意見・ご要望はサービスの向上に活用させていただきます。
+  </app-section>
+  <br />
+  <br />
+  <form>
+    <div class="item">
+      <label class="label">お名前</label>
+      <input class="inputs" type="text" name="name" />
+    </div>
+
+    <div class="item">
+      <label class="label">メールアドレス</label>
+      <input class="inputs" type="email" name="email" />
+    </div>
+
+    <div class="item">
+      <label class="label">ご意見</label>
+      <textarea class="inputs"></textarea>
+    </div>
+
+    <div>
+      <input type="submit" value="送信する" /><input
+        type="reset"
+        value="リセット"
+      />
+    </div>
+  </form>
+</app-section>

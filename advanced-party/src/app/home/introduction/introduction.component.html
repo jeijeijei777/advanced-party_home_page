@@ -1,0 +1,60 @@
+<app-section>
+  <div class="layout">
+    <h1 id="company" class="message"><b>先進党の詳細</b></h1>
+    <br />
+    <div class="container">
+      <dl>
+        <dt [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>政党名</b></ng-container>
+        </dt>
+        <dd [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>先進党</b></ng-container>
+        </dd>
+      </dl>
+      <dl>
+        <dt [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>所在地</b></ng-container>
+        </dt>
+        <dd [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>所在地を書く</b></ng-container>
+        </dd>
+      </dl>
+      <dl>
+        <dt [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>設立日</b></ng-container>
+        </dt>
+        <dd [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>2019/09</b></ng-container>
+        </dd>
+      </dl>
+      <dl>
+        <dt [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>代表</b></ng-container>
+        </dt>
+        <dd [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>近藤祐輝</b></ng-container>
+        </dd>
+      </dl>
+      <dl>
+        <dt [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>副代表</b></ng-container>
+        </dt>
+        <dd [ngSwitch]="''">
+          <ng-container *ngSwitchDefault><b>城谷弘明</b></ng-container>
+        </dd>
+      </dl>
+      <br />
+      <br />
+      <br />
+      <b>先進党公式Twitterアカウント</b>
+      <br />
+      <a href="https://twitter.com/inkokutou" target="_blank">
+        <img class="icon" src="assets/images/twitter.svg"
+      /></a>
+      <!-- <div>
+        <a [routerLink]="'/privacy-policy'">プライバシーポリシー</a>
+      </div> -->
+    </div>
+    <!-- <img class="logo" mat-card-image src="assets/images/lcnem.svg" /> -->
+  </div>
+</app-section>

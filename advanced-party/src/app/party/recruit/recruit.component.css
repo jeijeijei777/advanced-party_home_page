@@ -1,0 +1,30 @@
+.message {
+  font-family: HelveticaNeue-CondensedBold;
+  color: gray;
+}
+
+.cards {
+  display: flex;
+}
+
+.card {
+  background-color: bisque;
+  border-color: rgb(197, 194, 194);
+  border-radius: 1px;
+  border-style: solid;
+  width: 800px;
+}
+
+.caution {
+  color: red;
+}
+
+.recruit {
+  background: #e0505c;
+  border: none;
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 0 5px;
+}
