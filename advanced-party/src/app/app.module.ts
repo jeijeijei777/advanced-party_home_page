@@ -27,6 +27,7 @@ import { NgxPageScrollModule } from 'ngx-page-scroll';
 import { AboutComponent } from './home/about/about.component';
 import { IntroductionComponent } from './home/introduction/introduction.component';
 import { NewsComponent } from './home/news/news.component';
+import { PoliciesModule } from './policies/policies.module';
 
 @NgModule({
   declarations: [
@@ -56,7 +57,7 @@ import { NewsComponent } from './home/news/news.component';
     SharedModule,
     MaterialModule,
     PartyModule,
-    // ServicesModule,
+    PoliciesModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
