@@ -10,6 +10,10 @@ const routes: Routes = [
   { path: 'about', component: AboutComponent },
   { path: 'introduction', component: IntroductionComponent },
   { path: 'news', component: NewsComponent },
+  {
+    path: 'policies',
+    loadChildren: () => import('./policies/policies.module').then(m => m.PoliciesModule)
+  },
 ];
 
 @NgModule({

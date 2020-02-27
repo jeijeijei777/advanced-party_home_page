@@ -1,0 +1,50 @@
+.title {
+  font-family: HelveticaNeue-CondensedBold;
+  color: gray;
+}
+
+.layout {
+  display: flex;
+  object-fit: cover;
+  white-space: nowrap;
+}
+
+.voting {
+  object-fit: cover;
+  widows: 400px;
+  height: 400px;
+  object-fit: cover;
+  padding: 30px;
+}
+
+.cost {
+  text-align: center;
+  color: gray;
+}
+
+.contents {
+  display: flex;
+}
+
+.card {
+  background-color: rgb(197, 194, 194);
+  border-color: bisque;
+  border-radius: 1px;
+  border-style: solid;
+}
+
+.cards {
+  display: flex;
+}
+
+.center {
+  text-align: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.logo {
+  width: 400px;
+}
